@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HARSH KUMAR | Connect</title>
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #1c1c1c, #000);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .card {
+      width: 340px;
+      padding: 30px 25px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255,255,255,0.15);
+
+      animation: float 5s ease-in-out infinite,
+             glow 4s ease-in-out infinite;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(255,255,255,0.4);
+      box-shadow: 0 0 25px rgba(0, 200, 255, 0.35);
+      filter: contrast(1.05) brightness(1.05);
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .role {
+      font-size: 14px;
+      opacity: 0.8;
+      margin: 6px 0 22px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #fff;
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: all 0.3s ease;
+      font-size: 15px;
+    }
+
+    .link i {
+      font-size: 18px;
+    }
+
+    .link:hover {
+      background: #fff;
+      color: #000;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      opacity: 0.6;
+    }
+   /* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Glow pulse animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(0, 200, 255, 0.35);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.15);
+  }
+}
+ .footer {
+  margin-top: 22px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+
+
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <!-- Profile Photo -->
+    <img src="profile.jpg.jpg" alt="HARSH KUMAR" class="profile-img">
+
+    <h1>HARSH KUMAR</h1>
+    <div class="role">IT Student • Developer<br>
+    Passionate about building clean, scalable, and user-friendly tech.
+    </div>
+
+    <!-- Links -->
+
+    <a class="link" href="https://instagram.com/yourharshkumar" target="_blank">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+
+    <a class="link" href="https://linkedin.com/in/yourharshkumar" target="_blank">
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+
+   <a class="link" 
+         href="https://mail.google.com/mail/?view=cm&fs=1&to=harshkumarworkandbusiness@gmail.com&su=Let’s%20Connect"
+         target="_blank">
+      <i class="fa-solid fa-envelope"></i> Email me
+   </a>
+
+
+    <div class="footer">© 2026 • Built by Harsh kumar a.k.a HeRsHeY</div>
+  </div>
+</body>
+</html>
+
